@@ -53,3 +53,4 @@ playground
 - **workarea**: This is where AI generated code is kept. Unless otherwise stated, all code generated should be kept here, within their own folder. For example `workarea/counter/`.
 - **projects**: All  projects with multiple folders should be kept here, within their own folder. For example `projects/dashboard/`.
 - **README.md**: This is the main introduction documentation to the project.
+
