@@ -1,6 +1,6 @@
 # My Notes
 
-```html
-<h1>gdgdg,</h1>
-<p>hdhd dhdhjd dhhd djjd</p>
-```
+
+
+## References
+[VS Code Custom Instructions](https://code.visualstudio.com/docs/copilot/customization/custom-instructions)
