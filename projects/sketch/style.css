@@ -1,0 +1,108 @@
+/* Base box-sizing to ensure borders are included in width/height calculations */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: sans-serif;
+    background-color: #f5f5f5;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+/* Main wrapper adhering to the 1200px max width and 5px gaps */
+.container {
+    width: 100%;
+    max-width: 1200px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+/* Generalized block style for wireframe visibility */
+.header, .navbar, .main-section, .footer {
+    background-color: #ffffff;
+    border: 1px solid #333;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+/* HEADER: 50px height */
+.header {
+    height: 50px;
+}
+
+/* NAVBAR: 25px height */
+.navbar {
+    height: 25px;
+    font-size: 0.85rem;
+}
+
+/* MAIN SECTION: Holds 6 columns in CSS Grid */
+.main-section {
+    padding: 20px;
+    display: grid;
+    /* 3 evenly spaced columns */
+    grid-template-columns: repeat(3, 1fr);
+    /* 2 rows */
+    grid-template-rows: repeat(2, 1fr);
+    gap: 20px;
+}
+
+.col {
+    background-color: #fafafa;
+    border: 1px solid #777;
+    padding: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* FOOTER: 100px height with 3 equally spaced columns */
+.footer {
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+}
+
+.footer-col {
+    flex: 1; /* Equal spacing */
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-right: 1px solid #333;
+}
+
+.footer-col:last-child {
+    border-right: none;
+}
+
+/* Mobile-first responsive considerations */
+@media (max-width: 768px) {
+    /* Stack grid items on smaller screens */
+    .main-section {
+        grid-template-columns: 1fr;
+    }
+    
+    /* Stack footer columns vertically */
+    .footer {
+        height: auto;
+        flex-direction: column;
+    }
+    
+    .footer-col {
+        border-right: none;
+        border-bottom: 1px solid #333;
+        padding: 20px;
+    }
+    
+    .footer-col:last-child {
+        border-bottom: none;
+    }
+}

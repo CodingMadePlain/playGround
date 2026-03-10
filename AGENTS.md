@@ -54,3 +54,7 @@ playground
 - **projects**: All  projects with multiple folders should be kept here, within their own folder. For example `projects/dashboard/`.
 - **README.md**: This is the main introduction documentation to the project.
 
+## Very important
+Always check if a relevant Agent Skill exists for any task you are performing.
+Agent skills are stored in .agents/skills
+
