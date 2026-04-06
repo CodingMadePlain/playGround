@@ -1,7 +1,9 @@
 # How to - Use Custom Instructions in VS Code - For Multiple AI Agents"
+Sync GitHub Copilot, Claude & Gemini
+
 **Trainer: Dele Oke**
 
-## Objectives of this project
+## Objectives
 This project acts as a template for setting up VS Code workspace custom instructions for multiple AI assistants.
 
 AI assistants are software systems that use artificial intelligence to help people complete tasks, answer questions, generate content, analyse information, and automate parts of their work.
