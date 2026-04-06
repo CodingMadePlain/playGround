@@ -1,4 +1,4 @@
-# How to — Sync AI Instructions in VS Code — Copilot, Claude & Gemini From One File
+# How to — Use Custom Instructions in VS Code — Sync Copilot, Claude & Gemini"
 **Single video transcript**  
 **Channel:** AI Technology Simplified  
 **Estimated runtime:** ~11–12 minutes  

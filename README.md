@@ -1,4 +1,4 @@
-# Introduction to Coding with AI
+# How to — Use Custom Instructions in VS Code — For Multiple AI Agents"
 **Trainer: Dele Oke**
 
 ## Objectives of this project
@@ -12,6 +12,7 @@ Examples include:
 - Google Gemini
 - Microsoft Copilot
 - Claude
+- Gemini
 
 Large Language Models (LLMs) are AI systems trained on very large amounts of text so they can understand and generate human-like language. They learn patterns in words, sentences, and context. This allows them to answer questions, summarise information, write content, explain ideas, and assist with tasks such as coding.
 Examples include:
@@ -20,3 +21,4 @@ Examples include:
 - Gemini (Google)
 - Claude (Anthropic)
 
+ 
