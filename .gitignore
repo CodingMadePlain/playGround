@@ -1,0 +1,6 @@
+# ignore all files in large_assets
+large_assets/*
+# ignore all files in workarea except for the README.md
+workarea/*
+# ignore .env file
+.env

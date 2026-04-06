@@ -1,6 +1,8 @@
 # How to - Use Custom Instructions in VS Code - For Multiple AI Agents"
 Sync GitHub Copilot, Claude & Gemini
 
+![VS Code Logo](large_assets/VScode-stable-logo.png)
+
 **Trainer: Dele Oke**
 
 ## Objectives
@@ -23,4 +25,6 @@ Examples include:
 - Gemini (Google)
 - Claude (Anthropic)
 
+## Course Notes
+[Course Notes](notes/sync-ai-instructions-vscode.md)
  
