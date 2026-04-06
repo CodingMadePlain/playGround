@@ -1,4 +1,4 @@
-# How to — Use Custom Instructions in VS Code — For Multiple AI Agents"
+# How to - Use Custom Instructions in VS Code - For Multiple AI Agents"
 **Trainer: Dele Oke**
 
 ## Objectives of this project
