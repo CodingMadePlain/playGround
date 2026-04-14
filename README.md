@@ -33,6 +33,13 @@ Examples include:
 
 **Context Window** is the maximum amount of text a language model can process in a single interaction. It includes your input, any prior conversation history, and the model's response. When the total number of tokens exceeds this limit, the model can no longer access the earlier content. Larger context windows allow the model to handle longer documents and more complex, multi-step conversations.
 
+**Markdown** a lightweight plain text format for writing structured content. It lets you add elements like headings, lists, links, and emphasis with simple symbols. It is te main language that AI understands when creating instructions for it.[markdown Guide](https://www.markdownguide.org/cheat-sheet/)
+
+**Prompts** are the specific instructions or questions users give an AI to perform a particular task. They tell the AI *what* to do and are written in natural language.
+
+**Vibe Coding** was first used by Andrej Karpathy in a [post on X](https://x.com/karpathy/status/1886192184808149383?lang=en) on 2 Feb 2025. It has since evolved to reflect something more substantial. [Microsoft Learn](https://learn.microsoft.com/en-us/training/modules/introduction-vibe-coding/1-introduction) defines Vibe Coding as:
+> Vibe coding is an innovative approach to software development that leverages AI tools to generate applications.
+
 ## BASIC VS CODE CUSTOM INSTRUCTIONS
 
 ```
@@ -52,6 +59,25 @@ Workspace-Name/
         ├── php.instructions.md           ← applyTo: **/*.php (you edit this)
         └── database.instructions.md     ← applyTo: **/*.sql (you edit this)
 ```
+All **Custom Instructions** in  VS Code can be grouped under two headings
+
+ **Always on instructions**  
+
+The system always loads these files into the *context window* with every prompt.
+They can be saved for `workspace`(.github/copilot-instructions.md) or `user`(~/.copilot/instructions).
+
+- GitHub Copilot looks for custom instructions by default inside `.github/copilot-instructions.md`.
+- The `AGENTS.md` file provides custom instructions for other AI assistants.
+- Direct `copilot-instructions.md` to use the `AGENTS.md `file layout to avoid repetition.
+- This follows the `DRY principle` (Don't Repeat Yourself).
+
+**Scope loaded instructions**
+
+The system only loads scope loaded instructions into the context window when relevant files are active. For example:
+
+- In `.github/instructions/writing.instructions.md`, the AI assistant only loads instructions when you edit Markdown files.
+
+
 
 ## References
 
