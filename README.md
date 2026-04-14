@@ -10,9 +10,9 @@ This project serves as a template for setting up VS Code workspace custom instru
 
 ## Important Terminology
 
- **Visual Studio Code❓** is a source-code editor that Microsoft developed for Windows, Linux, and macOS. It supports debugging, syntax highlighting, and intelligent code completion. Users can customise the editor with extensions to add new languages and tools.
+ **1. Visual Studio Code❓** is a source-code editor that Microsoft developed for Windows, Linux, and macOS. It supports debugging, syntax highlighting, and intelligent code completion. Users can customise the editor with extensions to add new languages and tools.
 
-**AI assistants❓** are software systems that use artificial intelligence to help people complete tasks, answer questions, generate content, analyse information, and automate parts of their work.
+**2. AI assistants❓** are software systems that use artificial intelligence to help people complete tasks, answer questions, generate content, analyse information, and automate parts of their work.
 Examples include:
 
 - ChatGPT
@@ -22,23 +22,42 @@ Examples include:
 - Claude (Anthropic)
 - Gemini
 
-**Large Language Models❓** (LLMs) are AI systems trained on very large amounts of text so they can understand and generate human-like language. They learn patterns in words, sentences, and context. This allows them to answer questions, summarise information, write content, explain ideas, and assist with tasks such as coding.
+**3. Large Language Models❓** (LLMs) are AI systems trained on very large amounts of text so they can understand and generate human-like language. They learn patterns in words, sentences, and context. This allows them to answer questions, summarise information, write content, explain ideas, and assist with tasks such as coding.
 Examples include:
 
 - GPT-4o (OpenAI)
 - Gemini (Google)
 - Claude (Anthropic)
 
-**Tokens and Tokenisation❓** are the foundation of how language models read and process text. Tokenisation is the process of breaking text into smaller units called tokens. For example, the word "tokenisation" may split into three tokens: "token", "isa", and "tion". Models measure their input and output length in tokens, not words.
+**4. Tokens and Tokenisation❓** are the foundation of how language models read and process text. Tokenisation is the process of breaking text into smaller units called tokens. For example, the word "tokenisation" may split into three tokens: "token", "isa", and "tion". Models measure their input and output length in tokens, not words.
 
-**Context Window❓** is the maximum amount of text a language model can process in a single interaction. It includes your input, any prior conversation history, and the model's response. When the total number of tokens exceeds this limit, the model can no longer access the earlier content. Larger context windows allow the model to handle longer documents and more complex, multi-step conversations.
+**5. Context Window❓** is the maximum amount of text a language model can process in a single interaction. It includes your input, any prior conversation history, and the model's response. When the total number of tokens exceeds this limit, the model can no longer access the earlier content. Larger context windows allow the model to handle longer documents and more complex, multi-step conversations.
 
-**Markdown❓** a lightweight plain text format for writing structured content. It lets you add elements like headings, lists, links, and emphasis with simple symbols. It is te main language that AI understands when creating instructions for it.[markdown Guide](https://www.markdownguide.org/cheat-sheet/)
+**6. Markdown❓** a lightweight plain text format for writing structured content. It lets you add elements like headings, lists, links, and emphasis with simple symbols. It is te main language that AI understands when creating instructions for it.[markdown Guide](https://www.markdownguide.org/cheat-sheet/)
 
-**Prompts❓** are the specific instructions or questions users give an AI to perform a particular task. They tell the AI *what* to do and are written in natural language.
+**7. Prompts❓** are the specific instructions or questions users give an AI to perform a particular task. They tell the AI *what* to do and are written in natural language.
 
-**Vibe Coding❓** was first used by Andrej Karpathy in a [post on X](https://x.com/karpathy/status/1886192184808149383?lang=en) on 2 Feb 2025. It has since evolved to reflect something more substantial. [Microsoft Learn](https://learn.microsoft.com/en-us/training/modules/introduction-vibe-coding/1-introduction) defines Vibe Coding as:
+**8. Vibe Coding❓** was first used by Andrej Karpathy in a [post on X](https://x.com/karpathy/status/1886192184808149383?lang=en) on 2 Feb 2025. It has since evolved to reflect something more substantial. [Microsoft Learn](https://learn.microsoft.com/en-us/training/modules/introduction-vibe-coding/1-introduction) defines Vibe Coding as:
 > Vibe coding is an innovative approach to software development that leverages AI tools to generate applications.
+
+**9. Online AI Assistants & Command Line Interface Tools (CLI)❓** Online AI Assistants are becoming very powerful BUT cannot replace Desktop based IDE's yet. Examples are
+Github Copilot is the AI Assitant and the LLM's are supplied by:
+- OpenAI (GPT family e.g GPT-4) - ChatGPT
+- Anthropic (Claude family e.g Claude 2) - claude.ai
+- Google (Gemini family) - Google AI Studio
+- Replit: Replit is a cloud-based development platform where you can build, run, and deploy software entirely in your browser — no local setup needed. 
+
+AI Assistants like [Claude Code](https://code.claude.com/docs/en/setup) and [Gemini CLI](https://github.com/google-gemini/gemini-cli) Can run in the command line. They alos intergrate into VS Code with `Claude Code for VS Code Extension` and `Gemini CLI Companion VS Code extension`respectively. Install [node.js](https://nodejs.org/en/download) before installing your CLI's.
+
+**10. Overview of AI Agents in VS Code**
+- Install Github Copilot Chat (Extension)
+- load TechER (Extension)
+- Load Live Server (Extension)
+- Create basic HTML file in workarea
+- Explore existing Custom files and setup
+- use prompt to create an HTML form that submits content to Local server and displays it on next page. Save inside project folder
+- Create an html page from prds/prd3_sketch.md
+- Explain markdown files
 
 ---
 
