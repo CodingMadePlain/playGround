@@ -9,6 +9,9 @@
 This project serves as a template for setting up VS Code workspace custom instructions for multiple AI assistants.
 
 ## Important Terminology
+
+**Visual Studio Code** is a source-code editor that Microsoft developed for Windows, Linux, and macOS. It supports debugging, syntax highlighting, and intelligent code completion. Users can customise the editor with extensions to add new languages and tools.
+
 **AI assistants** are software systems that use artificial intelligence to help people complete tasks, answer questions, generate content, analyse information, and automate parts of their work.
 Examples include:
 
@@ -16,7 +19,7 @@ Examples include:
 - GitHub Copilot
 - Google Gemini
 - Microsoft Copilot
-- Claude
+- Claude (Anthropic)
 - Gemini
 
 **Large Language Models** (LLMs) are AI systems trained on very large amounts of text so they can understand and generate human-like language. They learn patterns in words, sentences, and context. This allows them to answer questions, summarise information, write content, explain ideas, and assist with tasks such as coding.
@@ -30,8 +33,25 @@ Examples include:
 
 **Context Window** is the maximum amount of text a language model can process in a single interaction. It includes your input, any prior conversation history, and the model's response. When the total number of tokens exceeds this limit, the model can no longer access the earlier content. Larger context windows allow the model to handle longer documents and more complex, multi-step conversations.
 
-## Course Notes 📝
-- [Course Notes](notes/sync-ai-instructions-vscode.md)
+## BASIC VS CODE CUSTOM INSTRUCTIONS
+
+```
+Workspace-Name/
+├── AGENTS.md                              ← source of truth (you edit this)
+│
+├── CLAUDE.md                              ← references the agent (you edit this)
+├── GEMINI.md                              ← references the agent (you edit this)
+├── prds/                                  ← project requirement docs
+├── notes/                                 ← notes and learning materials
+├── workarea/                              ← sample and experimental files
+│
+└── .github/
+    ├── copilot-instructions.md           ← copy of AGENTS.md (you edit this)
+    └── instructions/
+        ├── writing.instructions.md       ← applyTo: ** (you edit this)
+        ├── php.instructions.md           ← applyTo: **/*.php (you edit this)
+        └── database.instructions.md     ← applyTo: **/*.sql (you edit this)
+```
 
 ## References
 
