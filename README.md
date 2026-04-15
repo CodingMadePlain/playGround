@@ -67,23 +67,6 @@ AI Assistants like [Claude Code](https://code.claude.com/docs/en/setup) and [Gem
 
 ## BASIC VS CODE CUSTOM INSTRUCTIONS
 
-```
-Workspace-Name/
-├── AGENTS.md                              ← source of truth (you edit this)
-│
-├── CLAUDE.md                              ← references the agent (you edit this)
-├── GEMINI.md                              ← references the agent (you edit this)
-├── prds/                                  ← project requirement docs
-├── notes/                                 ← notes and learning materials
-├── workarea/                              ← sample and experimental files
-│
-└── .github/
-    ├── copilot-instructions.md           ← copy of AGENTS.md (you edit this)
-    └── instructions/
-        ├── writing.instructions.md       ← applyTo: ** (you edit this)
-        ├── php.instructions.md           ← applyTo: **/*.php (you edit this)
-        └── database.instructions.md     ← applyTo: **/*.sql (you edit this)
-```
 All **Custom Instructions❓** in  VS Code can be grouped under two headings
 
  **Always on instructions**  
@@ -103,10 +86,29 @@ The system only loads scope loaded instructions into the context window when rel
 - In `.github/instructions/writing.instructions.md`, the AI assistant only loads instructions when you edit Markdown files.
 
 ---
+## File Structure
+
+```
+Workspace-Name/
+├── .agents/                               ← global agent skills for all AI models
+├── large_assets/                          ← large files not uploaded to GitHub
+├── notes/                                 ← notes and learning materials
+├── prds/                                  ← project requirement docs
+├── workarea/                              ← sample and experimental files
+│
+└── .github/
+    ├── copilot-instructions.md           ← copy of AGENTS.md (you edit this)
+    ├── agents/                            ← VS Code agent definition files
+    └── instructions/
+        ├── writing.instructions.md       ← applyTo: **/*.md (you edit this)
+        └── php.instructions.md           ← applyTo: **/*.php (you edit this)
+```
+---
 
 ## References
 [References](notes/references.md)
 
+---
 ## Git
 [Creating Local Git Repository](notes/git_repository.md)
 
