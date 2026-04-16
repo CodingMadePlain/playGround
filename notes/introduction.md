@@ -106,10 +106,10 @@ Workspace-Name/
 ---
 
 ## References
-[References](notes/references.md)
+[References](references.md)
 
 ---
 ## Git
-[Creating Local Git Repository](notes/git_repository.md)
+[Creating Local Git Repository](git_repository.md)
 
  +++
