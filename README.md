@@ -4,7 +4,7 @@
 
 > Cover [Introduction notes](notes/introduction.md)
 
-This project demonstrates how to use AI agents to build web applications inside VS Code.
+This project demonstrates how to use AI Assistants to build web applications inside VS Code.
 
 ## Purpose
 
