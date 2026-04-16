@@ -1,7 +1,7 @@
 # VS Code Set-up With Custom Instructions  - For Multiple AI Agents
 *Trainer: Dele Oke*
 ---
-![VS Code Logo](notes/vscode.svg)
+![VS Code Logo](vscode.svg)
 
 > This acts as the template for all courses that involve VS code. Consult the specific respository for the subject matter e.g `Python 2026`, `VS-Code-Setup-For-Agentic_coding` e.t.c
 
