@@ -1,4 +1,4 @@
-# VS Code Set-up With Custom Instructions  - For Multiple AI Agents
+# VS Code Set-up With Custom Instructions  
 *Trainer: Dele Oke*
 ---
 ![VS Code Logo](vscode.svg)
@@ -90,6 +90,11 @@ The system only loads scope loaded instructions into the context window when rel
 
 
 ---
+
+## Set-up for Multiple AI Assistants
+
+-⭐ [Set-up for multiple AI Assistants](multiple_AI_setup.md) 
+
 ## File Structure
 
 ```

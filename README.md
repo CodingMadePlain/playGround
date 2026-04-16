@@ -22,3 +22,13 @@ The project also covers generating website templates from images and wireframes,
 - **Database:** MySQL 8.0+
 - **Frontend:** HTML5, vanilla CSS3, vanilla JavaScript (ES6+)
 - **Version control:** Git 2.23+
+
+## File Stucture
+
+- **.github/copilot-instructions.md**: This file contains Contextual instructions for Github Copilot to follow.
+- **notes**: Tutorial notes and student notes are kept here.
+- **large_assets**: Large files that should not be uploaded to Github should be kept here.
+- **prds**: This is where `Product Requirements Document` are kept.
+- **projects**: Unless otherwise stated, this is where AI generated code should be kept within their own folder. For example `projects/dashboard/`.
+- **workarea**: Hand coded single sample files are kept here. AI generated files only go here if specifically requested.
+- **README.md**: This is the main introduction documentation to the project.
