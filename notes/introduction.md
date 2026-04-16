@@ -67,19 +67,18 @@ AI Assistants like [Claude Code](https://code.claude.com/docs/en/setup) and [Gem
 
 ## BASIC VS CODE CUSTOM INSTRUCTIONS
 
-All **Custom Instructions❓** in  VS Code can be grouped under two headings
+All Custom Instructions in  VS Code can be grouped under two headings
 
- **Always on instructions**  
+ **1. Always on instructions**  
 
 The system always loads these files into the *context window* with every prompt.
 They can be saved for `workspace`(.github/copilot-instructions.md) or `user`(~/.copilot/instructions).
 
-- GitHub Copilot looks for custom instructions by default inside `.github/copilot-instructions.md`.
 - The `AGENTS.md` file provides custom instructions for other AI assistants.
 - Direct `copilot-instructions.md` to use the `AGENTS.md `file layout to avoid repetition.
 - This follows the `DRY principle` (Don't Repeat Yourself).
 
-**Scope loaded instructions**
+**2. Scope loaded instructions**
 
 The system only loads scope loaded instructions into the context window when relevant files are active. For example:
 
@@ -87,14 +86,7 @@ The system only loads scope loaded instructions into the context window when rel
 
 ### Creating Custom Instructions
 
-*Prompt for custom instructions* 
-
-`/init create a custom instructions for this project`
-
---
-
-`/create-instructions  Create a file-based custom instruction for HTML that requires all CSS to be in linked .css files and all JavaScript to be in linked .js files only. Place the JavaScript <script> in the <head> with the defer attribute, and require semantic HTML structure such as <header>, <footer>.`
-
+-⭐ [Creating Custom Instructions](create_custom_instructions.md) 
 
 
 ---
