@@ -62,7 +62,7 @@ AI Assistants like [Claude Code](https://code.claude.com/docs/en/setup) and [Gem
 
 **11. Creating a local Git repository (optional)**
 
-[Installing and Creating Git repository](notes/git_repository.md)
+[Installing and Creating Git repository](git_repository.md)
 ---
 
 ## BASIC VS CODE CUSTOM INSTRUCTIONS
@@ -84,6 +84,18 @@ They can be saved for `workspace`(.github/copilot-instructions.md) or `user`(~/.
 The system only loads scope loaded instructions into the context window when relevant files are active. For example:
 
 - In `.github/instructions/writing.instructions.md`, the AI assistant only loads instructions when you edit Markdown files.
+
+### Creating Custom Instructions
+
+*Prompt for custom instructions* 
+
+`/init create a custom instructions for this project`
+
+--
+
+`/create-instructions  Create a file-based custom instruction for HTML that requires all CSS to be in linked .css files and all JavaScript to be in linked .js files only. Place the JavaScript <script> in the <head> with the defer attribute, and require semantic HTML structure such as <header>, <footer>.`
+
+
 
 ---
 ## File Structure

@@ -2,6 +2,9 @@
 
 **Trainer:** Dele Oke
 
+![VS Code Logo](notes/vscode.svg)
+
+
 > Cover [Introduction notes](notes/introduction.md)
 
 This project demonstrates how to use AI Assistants to build web applications inside VS Code.

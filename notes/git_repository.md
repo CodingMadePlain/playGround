@@ -25,10 +25,6 @@ If it is not installed, macOS will prompt you to install it automatically.
 git --version
 ```
 
-Expected output:
-```
-git version 2.x.x
-```
 
 ## Configure Git (required for all users)
 
@@ -38,7 +34,32 @@ git config --global user.email "you@example.com"
 ```
 
 ## Checking the user.name and email
+
 ```bash
 git config user.name
 git config user.email
+```
+
+## Check the default branch name
+
+```bash
+git config --global init.defaultBranch
+```
+
+## Set the default branch to main
+
+```bash
+git config --global init.defaultBranch main
+```
+
+## Check current branch you are on in repository
+
+```bash
+git branch --show-current
+```
+
+## Roll back last commit
+
+```bash
+git revert HEAD
 ```
